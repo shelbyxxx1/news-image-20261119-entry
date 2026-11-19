@@ -381,17 +381,17 @@ for index, (number, region, brief) in enumerate(briefs):
          11, width=363)
 line([(625, 768), (625, 929)], '#bdb5a7')
 
-rect((24, 939, 1000, 977), PAPER, RED, 1)
-text('DATE CHECK — Left out on purpose because they broke before today:', 32, 941, 12, 'label', RED)
+rect((24, 935, 1000, 970), PAPER, RED, 1)
+text('DATE CHECK — Left out on purpose because they broke before today:', 32, 936, 12, 'label', RED)
 text("Jensen Huang resigned from Nvidia on 12 Nov; the first US strike on Qeshm Island was Tuesday 17 Nov — today's story is the widening;",
-     32, 954, 11, width=959)
+     32, 948, 11, width=959)
 text("India's 2–1 SAFF final win over Pakistan was Tuesday 17 Nov in Dhaka; the NSA network outage was first reported Tuesday.",
-     32, 966, 11, width=959)
-line([(24, 984), (1000, 984)])
+     32, 960, 11, width=959)
+line([(24, 974), (1000, 974)])
 text('Drawn entirely by program · Set in Noto Serif Display & Noto Sans Condensed · Every story happened or was first reported Thursday 19 November 2026.',
-     24, 989, 11, width=976)
+     24, 977, 11, width=976)
 text('Sources: AP, Reuters, AFP, Bloomberg, NYT, BBC, FT, The Hindu, MarketWatch, The Guardian. Original drawings.',
-     24, 1002, 11, width=976)
+     24, 989, 11, width=976)
 
 image = image.resize((1024, 1024), Image.Resampling.LANCZOS)
 destination = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / 'entry.png'
