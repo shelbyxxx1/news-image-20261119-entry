@@ -382,12 +382,11 @@ for index, (number, region, brief) in enumerate(briefs):
 line([(625, 768), (625, 929)], '#bdb5a7')
 
 rect((24, 939, 1000, 977), PAPER, RED, 1)
-text('DATE CHECK', 32, 946, 12, 'label', RED)
-text('— Left out on purpose because they broke before today:', 112, 946, 11)
+text('DATE CHECK — Left out on purpose because they broke before today:', 32, 941, 12, 'label', RED)
 text("Jensen Huang resigned from Nvidia on 12 Nov; the first US strike on Qeshm Island was Tuesday 17 Nov — today's story is the widening;",
-     354, 946, 11, width=637)
+     32, 954, 11, width=959)
 text("India's 2–1 SAFF final win over Pakistan was Tuesday 17 Nov in Dhaka; the NSA network outage was first reported Tuesday.",
-     32, 962, 11, width=959)
+     32, 966, 11, width=959)
 line([(24, 984), (1000, 984)])
 text('Drawn entirely by program · Set in Noto Serif Display & Noto Sans Condensed · Every story happened or was first reported Thursday 19 November 2026.',
      24, 989, 11, width=976)
